@@ -14,7 +14,7 @@ Based on the available power, the first microcontroller activates or deactivates
 ### User Interface and Monitoring
 The second microcontroller is responsible for displaying real-time system status on LCD panels. The interface clearly shows which nodes are currently active and which ones are disconnected, offering operators full visibility into the controller’s actions.
 
-#### Hardware Components
+### Hardware Components
 The system uses Phasor Measurement Units (PMUs) for precise, synchronized measurement of electrical signals. It also integrates relay-based electronic switches to control the actual power flow to load nodes. All actions are taken automatically based on data inputs, ensuring fast and accurate responses to generation fluctuations.
 
 
