@@ -1,5 +1,6 @@
 # Power Distribution Controller for Load Areas
 This project was developed as part of a broader solution to prevent large-scale blackouts, inspired by the **Generation Based Load Management System To Prevent Future Blackouts In Bangladesh**. The blackout was triggered by an overload in the cross-border power transmission system, which led to a loss of synchronization and a cascading failure across the national grid. To address such failures at a localized level, we designed a Load Area Controller capable of dynamically managing electricity distribution within load zones based on available generation. This controller works in coordination with a centralized load management system and enhances the system's resilience by responding independently at the distribution level.
+
 ![Load Area 1 (600 MW) Status in Generation Variations.jpg](https://github.com/mehedihassanarman/Power-Distribution-Controller-for-Load-Areas/blob/main/Project%20Image/Load%20Area%201%20(600%20MW)%20Status%20in%20Generation%20Variations.jpg)
 
 The Load Area Controller is built using a dual microcontroller system based on the AT89C52. Each load area is divided into multiple nodes—for example, Load Area 1 (600 MW) is divided into 8 nodes of 75 MW each. The system works as follows:
