@@ -6,7 +6,7 @@ This project was developed as part of a broader solution to prevent large-scale 
 The Load Area Controller is built using a dual microcontroller system based on the AT89C52. Each load area is divided into multiple nodes—for example, Load Area 1 (600 MW) is divided into 8 nodes of 75 MW each. The system works as follows:
 
 ### Communication and Data Reception
-The first microcontroller receives power allocation data from the central operating software via a communication channel. Various communication technologies such as wireless mesh networks, power-line communication (PLC) and fiber-optic systems are simulated as part of the system design to ensure flexibility for real-world application.
+The first microcontroller receives power allocation data from the central operating software via a communication channel. While no communication protocol was implemented, the design considered the potential use of SCADA, wireless mesh networks, PLC and fiber-optic systems for future real-world integration.
 
 ### Dynamic Load Switching
 Based on the available power, the first microcontroller activates or deactivates specific nodes. For instance, if only 282 MW is available, the system automatically powers 3 out of the 8 nodes and disconnects the remaining 5 to match the supply with demand precisely.
